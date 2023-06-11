@@ -1,0 +1,65 @@
+;;; 
+Export: Release 11.2.0.2.0 - Production on Sun May 14 22:44:28 2023
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Starting "DATABASE"."SYS_EXPORT_SCHEMA_01":  DATABASE/********@localhost:1521/xe schemas=DATABASE directory=my_exports_dir dumpfile=export_file.dmp logfile=export_log.log 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 1.437 MB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "DATABASE"."DEMO_PRODUCT_INFO"              24.87 KB      10 rows
+. . exported "DATABASE"."ADMIN"                          7.484 KB       1 rows
+. . exported "DATABASE"."BUYER"                          7.445 KB       1 rows
+. . exported "DATABASE"."CART"                           6.046 KB      15 rows
+. . exported "DATABASE"."CATEGORY"                       5.476 KB       3 rows
+. . exported "DATABASE"."DEMO_CUSTOMERS"                 10.11 KB       7 rows
+. . exported "DATABASE"."DEMO_ORDERS"                    6.906 KB      10 rows
+. . exported "DATABASE"."DEMO_ORDER_ITEMS"               7.687 KB      49 rows
+. . exported "DATABASE"."DEMO_STATES"                     6.25 KB      51 rows
+. . exported "DATABASE"."DEMO_USERS"                     7.937 KB       2 rows
+. . exported "DATABASE"."DEPT"                           5.937 KB       4 rows
+. . exported "DATABASE"."EMP"                            8.570 KB      14 rows
+. . exported "DATABASE"."ORDERS"                         7.609 KB      12 rows
+. . exported "DATABASE"."PRODUCTS"                       20.80 KB     103 rows
+. . exported "DATABASE"."RACKREQUESTS"                   6.281 KB       1 rows
+. . exported "DATABASE"."RACKS"                          6.726 KB       2 rows
+. . exported "DATABASE"."REQUESTCAPACITY"                6.289 KB       1 rows
+. . exported "DATABASE"."SELLER"                         8.203 KB      10 rows
+. . exported "DATABASE"."SELLERORDERS"                   7.984 KB      18 rows
+. . exported "DATABASE"."STOCK"                          21.21 KB     103 rows
+. . exported "DATABASE"."TRADE"                          6.773 KB       5 rows
+. . exported "DATABASE"."VENDOR"                         7.484 KB       1 rows
+. . exported "DATABASE"."APEX$_ACL"                          0 KB       0 rows
+. . exported "DATABASE"."APEX$_WS_FILES"                     0 KB       0 rows
+. . exported "DATABASE"."APEX$_WS_HISTORY"                   0 KB       0 rows
+. . exported "DATABASE"."APEX$_WS_LINKS"                     0 KB       0 rows
+. . exported "DATABASE"."APEX$_WS_NOTES"                     0 KB       0 rows
+. . exported "DATABASE"."APEX$_WS_ROWS"                      0 KB       0 rows
+. . exported "DATABASE"."APEX$_WS_TAGS"                      0 KB       0 rows
+. . exported "DATABASE"."APEX$_WS_WEBPG_SECTIONS"            0 KB       0 rows
+. . exported "DATABASE"."APEX$_WS_WEBPG_SECTION_HISTORY"      0 KB       0 rows
+Master table "DATABASE"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for DATABASE.SYS_EXPORT_SCHEMA_01 is:
+  C:\USERS\ALIRU\ONEDRIVE\DESKTOP\EXPORT_FILE.DMP
+Job "DATABASE"."SYS_EXPORT_SCHEMA_01" successfully completed at 22:45:07
