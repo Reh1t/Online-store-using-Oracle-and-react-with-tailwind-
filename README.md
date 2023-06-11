@@ -19,11 +19,14 @@ open window search bar (window + S) and search for "Run sql command line".
 
 write these commands in it now:
 1- conn
+---
 --- it will ask for username and password
 --- Enter the username and password that you entered at installation.
 
-2- CREATE DIRECTORY my_exports AS 'C:\Users\Noob\Desktop\Coding Experiments\Te';
+2- CREATE DIRECTORY my_exports AS 'C:\Users\user\Desktop\Specific Folder\Test';
+---
 --- Enter path where you want to make this directory
+------- This path should contain EXPORT_FILE.DMP & export_log.log
 
 Now close this application.
 Now open Command line by search bar (win + S) or Run (win + R)
@@ -35,7 +38,34 @@ impdp Your_username/Your_Password@localhost:1521/xe directory=my_exports dumpfil
 change Your_username,Your_Password and Your_DataBase_Name accordingly.
 
 
+now open the project in vscode.
+open server.js.
 
+find this code:
+---
+app.post('/query', async (req, res) => {
+  try {
+    const { query } = req.body;
 
+    console.log('Executing query:', query);
 
+    const conn = await oracledb.getConnection({
+      user: 'STORE',
+      password: 'nahibtana',
+      connectionString: 'xe'
+    });
+
+change user and password this user and password of database that you entered later while creating database
+
+now node.js should be installed in your computer if its not, google it and install it.
+
+Now open the terminal and run
+npm start
+---
+open another terminal and run
+node server.js
+---
+
+This should run your project.
+If you want to see username and password used in web-app, you can find it in your database of oracle g11 now.
 
